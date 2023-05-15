@@ -1,0 +1,81 @@
+.home-container {
+    background-image: url("../../images/background-home-desktop.jpg");
+    background-size: cover;
+    padding-top: 50px;
+    color: white;
+}
+
+.home-content {
+    display: flex;
+    padding: 10rem 6rem;
+}
+
+.home-content-left {
+    flex: 0.35;
+    font-family: 'Bellefair', serif;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-content-left h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 4.75px;
+    color: #D0D6F9;
+}
+
+.home-content-left h1 {
+    font-size: 150px;
+    font-weight: 300;
+}
+
+.home-content-left p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    color: #D0D6F9;
+}
+
+.home-content-right {
+    flex: 0.55;
+    display: flex;
+    justify-content: right;
+}
+
+.home-content-right-explore {
+    width: 18rem;
+    height: 18rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: center;
+}
+
+.home-content-right-explore h3 {
+    font-size: 32px;
+    font-weight: 300;
+}
+@media (max-width: 1024px){
+    .home-container {
+        padding: 0;
+        background-image: url("../../images/background-home-tablet.jpg");
+    }
+    .home-content{
+        flex-direction: column;
+    }
+    .home-content-left{
+      
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10rem;
+    }
+    .home-content-right{
+        border:2px solid blue;
+        margin: auto;
+    }
+    
+}

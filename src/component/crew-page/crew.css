@@ -1,0 +1,78 @@
+.crew-container{
+    background-image: url("../../images/background-crew-desktop.jpg");
+    background-size: cover;
+    padding-top: 50px;
+}
+#content1{
+    padding-bottom: 0;
+}
+.content-left{
+    flex: 0.5;
+    color: #909296;
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+    margin-top: 4rem;
+}
+.content-left h2 ,h1{
+    text-transform: uppercase;
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.content-left h1{
+    color: white;
+    font-size: 3rem;
+}
+.content-left p{
+    height: 10rem;
+    margin-top: 2rem;
+    width: 80%;
+    color: #D1D7F9;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.content2-left-bottom{
+    display: flex;
+    margin-top: 5rem;
+}
+.crew-circle,.activecircle{
+    background-color:#363942 ;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 25px;
+    margin: 0.5rem;
+}
+.activecircle{
+background-color: white;    
+}
+.content-right{
+    flex: 0.5;
+    margin-top:-5rem;
+}
+@media (max-width: 1024px){
+    .crew-container{
+        padding: 0;
+        background-image: url("../../images/background-crew-tablet.jpg");
+
+    }
+    .content-2{
+    flex-direction: column;
+    }
+    .content-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content2-left-bottom{
+        margin-top: 1rem;
+    }
+    .content-right{
+         padding-top: 2rem;
+         margin:auto
+     }
+    .content-left p{
+        width: 65%;
+        text-align: center;
+    }
+}

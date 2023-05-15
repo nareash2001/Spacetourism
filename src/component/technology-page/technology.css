@@ -1,0 +1,98 @@
+.technology-container{
+    background-image: url("../../images/background-technology-desktop.jpg");
+    background-size: cover;
+    padding-top: 50px;
+}
+#tech-content{
+    padding-right: 0;
+    color: #D0D7F8;
+
+}
+.tech-content-left{
+    margin-top: 6rem;
+    display: flex;
+    gap: 5rem;
+    flex: 0.6;
+}
+.tech-content-right{
+    flex: 0.4;
+    margin-top: -1rem;
+}
+#tech-circle{
+    height: 4.5rem;
+    border: 1px solid #44474D;
+    width: 4.5rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Bellefair', serif;
+}
+.tech-content-left-right h5{
+    font-weight: 100;
+    width:fit-content;
+    letter-spacing: 2px;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-bottom: 1rem;
+}
+.tech-content-left-right h1{
+    color: white;
+    font-size: 2.5rem;
+    width:fit-content;
+    margin-bottom: 2rem;  
+}
+.tech-content-left-right p{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    width:75%;
+}
+.active1circle{
+   color: black !important;
+   background-color: white;
+}
+@media  (max-width: 1024px){
+    .technology-container{
+        padding-top: 0;
+        background-image: url("../../images/background-technology-tablet.jpg");
+    }
+    #content-2{
+        display: flex;
+        padding-bottom: 5rem;
+        flex-direction: column-reverse;
+    }
+    .content{
+        padding:0;
+    }
+    .subtitle{
+        padding: 3rem;
+        font-size: 1.2rem;
+    }
+    .tech-content-right img{
+       width: 100%;
+    }
+    .tech-content-left{
+        flex-direction: column;
+        gap: 1rem
+    }
+    .tech-content-left-left{
+        display: flex;
+        justify-content: center;
+    }
+    #tech-circle{
+        margin-right: 1rem;
+    }
+    .tech-content-left-right{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center  
+    }
+    .tech-content-left-right p{
+        width: 55%;
+    }
+}
